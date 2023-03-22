@@ -8,7 +8,7 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureServiceConnectionId: 'eedf2f66-63fb-4773-a24f-09fa50332779'
+  azureServiceConnectionId: 'shaheer-SC'
 
   # Web app name
   webAppName: 'Flask-app-1'
