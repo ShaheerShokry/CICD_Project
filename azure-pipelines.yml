@@ -6,12 +6,15 @@ trigger:
 - main
 
 # TODO: Replace the agent pool name
-  # Agent VM image name
+# Agent VM image name
   vmImageName: 'ubuntu-latest'
 
 variables:
   # TODO: Replace the service connection name as used in the DevOps project settings
   azureServiceConnectionId: 'shaheer-SC'
+# TODO: Replace the agent pool name
+# Agent VM image name
+  vmImageName: 'ubuntu-latest'
   
   # TODO: Specify the value of the existing Web App name
   webAppName: 'Flask-app-1'
@@ -21,6 +24,9 @@ variables:
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
+
+  # Python version: 3.7
+  pythonVersion: '3.7'  
 stages:
 - stage: Build
   displayName: Build stage
