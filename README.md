@@ -6,7 +6,7 @@ In this project, you will build a Github repository from scratch and create a sc
 
 ## Project Plan
 - [Trello board for the project](https://trello.com/invite/b/zeoZeJUF/ATTIfd7db4d8edc32debe6a65ddeef181d391B736957/cicdproject).
-- [Spreadsheet for the project](./project-management.xlsx)
+- [Spreadsheet for the project](./project-management-sh.xlsx)
 
 ## Architectural Diagram
 ![image](https://user-images.githubusercontent.com/94620177/226965171-9e2dfb43-905c-43af-97f9-a14ed72e72af.png)
