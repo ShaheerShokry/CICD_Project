@@ -5,10 +5,6 @@
 trigger:
 - main
 
-# TODO: Replace the agent pool name
-# Agent VM image name
-  vmImageName: 'ubuntu-latest'
-
 variables:
   # TODO: Replace the service connection name as used in the DevOps project settings
   azureServiceConnectionId: 'shaheer-SC'
