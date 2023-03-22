@@ -16,7 +16,7 @@ variables:
   webAppName: 'Flask-app-1'
 
   # Environment name
-  environmentName: 'CICD_Project'
+  environmentName: 'Flask-app-1'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
