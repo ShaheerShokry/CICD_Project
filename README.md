@@ -47,7 +47,13 @@ git@github.com:ShaheerShokry/CICD_Project.git
 ```
 ![image](https://user-images.githubusercontent.com/94620177/227004103-df374382-4948-4ac1-8ed3-6a96be47b714.png)
 
-## Azure DevOps Pipeline
+## Deploy Flask Webapp on Azure
+
+* cd CICD_Project
+* az webapp up -n Flask-app-1 -g RG1 --sku F1
+![image](https://user-images.githubusercontent.com/94620177/227008533-d1edb400-5899-4c5b-b053-08b14f384e65.png)
+![image](https://user-images.githubusercontent.com/94620177/227008826-643ca051-d5db-42f8-b257-4e01e979599e.png)
+![image](https://user-images.githubusercontent.com/94620177/227008925-7f832e01-dd04-417e-84ef-c302646c5a38.png)
 
 
 
