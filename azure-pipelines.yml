@@ -92,4 +92,5 @@ stages:
             inputs:
               azureSubscription: $(azureServiceConnectionId)
               appName: $(webAppName)
+              resourceGroupName: RG1
               package: $(Pipeline.Workspace)/drop/$(Build.BuildId).zip
