@@ -16,9 +16,9 @@ In this project, you will build a Github repository from scratch and create a sc
 ## Azure Cloud Shell
 Lets deploy the application using Azure Cloud Shell.
 
-*Create ssh key and add the public key to the github Repo.
+* Create ssh key and add the public key to the github Repo.
 
-*Clone the repo in Azure Cloud Shell:
+* Clone the repo in Azure Cloud Shell:
 ```
 git@github.com:ShaheerShokry/CICD_Project.git
 ```
