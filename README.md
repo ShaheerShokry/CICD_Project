@@ -56,6 +56,16 @@ git@github.com:ShaheerShokry/CICD_Project.git
 ![image](https://user-images.githubusercontent.com/94620177/227008925-7f832e01-dd04-417e-84ef-c302646c5a38.png)
 
 
+## Deploy with AzureDevOps
+
+* Create a new project in Azure DevOps
+* Create a new service connection in Azure DevOps (you can find it under project settings). The Azure Resource Manager comes in handy for that. Choose         Service principal (automatic) if asked and establish a connection to your subscription and resource group.
+* Go to Azure DevOps Pipelines and create one by connecting it to your GitHub repo. Once, you can configure your pipeline, choose 'Python to Linux Web App     on Azure'. This will generate the appropriate YML file for the Flask web app.
+  Once, this step is successfully done, you have deployed the Flask Web App.
+
+![image](https://user-images.githubusercontent.com/94620177/227025518-61b63e79-5624-44b8-b73d-050f3501fb3f.png)
+![image](https://user-images.githubusercontent.com/94620177/227025660-5940f634-53a9-4d4a-b09b-13ba29b8f382.png)
+
 
 
 
