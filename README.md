@@ -32,4 +32,24 @@ git@github.com:ShaheerShokry/CICD_Project.git
 * Output of continuous integration with Github Actions
 ![image](https://user-images.githubusercontent.com/94620177/226968683-9dd7556f-ecb9-4fcd-b37f-fe8818ec3817.png)
 
+## Testing the flask application in Azure CLI
+* Clone the reop to your existing directory
+* run make all
+![image](https://user-images.githubusercontent.com/94620177/227003583-e48d6cf2-27ec-44a9-a6a0-bff389e4a1bf.png)
+![image](https://user-images.githubusercontent.com/94620177/227003664-67310c3e-f73f-4c8b-9849-bd611893ca6f.png)
+
+* Start flask webapp 
+![image](https://user-images.githubusercontent.com/94620177/227003894-863b9795-5a96-40b0-9f25-bec2486eb21f.png)
+
+* Open second Azure Cloud Shell terminal and test the app by making a prediction
+```
+./make_prediction.sh
+```
+![image](https://user-images.githubusercontent.com/94620177/227004103-df374382-4948-4ac1-8ed3-6a96be47b714.png)
+
+## Azure DevOps Pipeline
+
+
+
+
 
