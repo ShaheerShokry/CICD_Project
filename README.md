@@ -67,5 +67,15 @@ git@github.com:ShaheerShokry/CICD_Project.git
 ![image](https://user-images.githubusercontent.com/94620177/227025660-5940f634-53a9-4d4a-b09b-13ba29b8f382.png)
 
 
+* Test the Flask Web App
+![image](https://user-images.githubusercontent.com/94620177/227026937-8d2b9578-45c4-4eab-9c14-f2543a672933.png)
+
+* Logs can be found here:
+![image](https://user-images.githubusercontent.com/94620177/227027342-b949808b-65b0-45cf-be72-74feb63f18b0.png)
+
+
+
+
+
 
 
