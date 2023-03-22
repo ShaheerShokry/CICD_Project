@@ -1,19 +1,20 @@
-# Starter pipeline    
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
+# Python to Linux Web App on Azure
+# Build your Python project and deploy it to Azure as a Linux Web App.
+# Change python version to one thats appropriate for your application.
+# https://docs.microsoft.com/azure/devops/pipelines/languages/python
+
 trigger:
 - main
 
 variables:
-  # TODO: Replace the service connection name as used in the DevOps project settings
-  azureServiceConnectionId: 'shaheer-SC'
-# TODO: Replace the agent pool name
-# Agent VM image name
-  vmImageName: 'ubuntu-latest'
-  
-  # TODO: Specify the value of the existing Web App name
+  # Azure Resource Manager connection created during pipeline creation
+  azureServiceConnectionId: 'eedf2f66-63fb-4773-a24f-09fa50332779'
+
+  # Web app name
   webAppName: 'Flask-app-1'
+
+  # Agent VM image name
+  vmImageName: 'ubuntu-latest'
 
   # Environment name
   environmentName: 'Flask-app-1'
@@ -22,7 +23,8 @@ variables:
   projectRoot: $(System.DefaultWorkingDirectory)
 
   # Python version: 3.7
-  pythonVersion: '3.7'  
+  pythonVersion: '3.7'
+
 stages:
 - stage: Build
   displayName: Build stage
@@ -35,6 +37,7 @@ stages:
       inputs:
         versionSpec: '$(pythonVersion)'
       displayName: 'Use Python $(pythonVersion)'
+    
     - script: |
         python -m venv antenv
         source antenv/bin/activate
@@ -43,6 +46,15 @@ stages:
         pip install -r requirements.txt
       workingDirectory: $(projectRoot)
       displayName: "Install requirements"
+    
+    - script: |
+        python -m venv antenv
+        source antenv/bin/activate
+        make install
+        make lint
+      workingDirectory: $(projectRoot)
+      displayName: "Run Lint test"
+      
     - task: ArchiveFiles@2
       displayName: 'Archive files'
       inputs:
@@ -55,7 +67,6 @@ stages:
     - upload: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
       displayName: 'Upload package'
       artifact: drop
-
 
 - stage: Deploy
   displayName: 'Deploy Web App'
