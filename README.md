@@ -35,8 +35,8 @@ git@github.com:ShaheerShokry/CICD_Project.git
 ## Testing the flask application in Azure CLI
 * Clone the reop to your existing directory
 * run make all
-![image](https://user-images.githubusercontent.com/94620177/227003583-e48d6cf2-27ec-44a9-a6a0-bff389e4a1bf.png)
-![image](https://user-images.githubusercontent.com/94620177/227003664-67310c3e-f73f-4c8b-9849-bd611893ca6f.png)
+![image](https://user-images.githubusercontent.com/94620177/227331113-d21a03b9-7a24-435c-8eee-d8e28604545f.png)
+
 
 * Start flask webapp 
 ![image](https://user-images.githubusercontent.com/94620177/227003894-863b9795-5a96-40b0-9f25-bec2486eb21f.png)
