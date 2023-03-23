@@ -73,6 +73,10 @@ git@github.com:ShaheerShokry/CICD_Project.git
 * Logs can be found here:
 ![image](https://user-images.githubusercontent.com/94620177/227027342-b949808b-65b0-45cf-be72-74feb63f18b0.png)
 
+## Demo
+
+- [Video Demo](https://youtu.be/vzStp_tzhqg).
+
 
 
 
