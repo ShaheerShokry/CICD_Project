@@ -75,7 +75,7 @@ git@github.com:ShaheerShokry/CICD_Project.git
 
 ## Demo
 
-- [Video Demo](https://youtu.be/vzStp_tzhqg).
+- [Video Demo](https://youtu.be/SDCeJew8xv0).
 
 
 
