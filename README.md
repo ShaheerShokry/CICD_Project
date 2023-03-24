@@ -85,6 +85,11 @@ locust -f locustfile.py --host https://flask-app-1.azurewebsites.net/
 ![image](https://user-images.githubusercontent.com/94620177/227506505-99a3ec3c-aba6-425d-84ed-382e25ca56e4.png)
 
 
+## Enhancements
+* Modify the pipeline to trigger based on an approved pull request.
+* Use Azure Container Instances to deploy the web app.
+
+
 
 ## Demo
 
