@@ -75,6 +75,17 @@ git@github.com:ShaheerShokry/CICD_Project.git
 * Logs can be found here:
 ![image](https://user-images.githubusercontent.com/94620177/227027342-b949808b-65b0-45cf-be72-74feb63f18b0.png)
 
+
+* Run the load test against the deployed application 
+```
+pip install locust
+locust -f locustfile.py --host https://flask-app-1.azurewebsites.net/
+```
+
+![image](https://user-images.githubusercontent.com/94620177/227506505-99a3ec3c-aba6-425d-84ed-382e25ca56e4.png)
+
+
+
 ## Demo
 
 - [Video Demo](https://youtu.be/1uz3NmUpPAo)
